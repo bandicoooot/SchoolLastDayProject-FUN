@@ -17,7 +17,7 @@ public struct Position
             Direction.Left => new Position(X - 1, Y),
             Direction.Right => new Position(X + 1, Y),
             _ => this
-        };
+        };  
     }
 
 }
